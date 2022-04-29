@@ -1,11 +1,17 @@
-import './App.css';
+import Navbar from './components/navbar/NavBar';
+import Administrator from './components/administrator/Administrator';
+import { Container, Title } from './App.style';
+import Employee from './components/employee/Employee';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>App Kruger</h1>
-      </header>
+      <Navbar/>
+      <Container>
+        <Title>Inventario de vacunación de empleados</Title>
+        <Administrator/>
+        <Employee/>
+      </Container>
     </div>
   );
 }
