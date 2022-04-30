@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 70%;
   border: solid 3px #FF8E00;
   border-radius: 10px;
   padding: 30px 0;
@@ -25,7 +25,7 @@ export const Input = styled.input`
   }
   :invalid {
     border-color: #DD2C00;
-}
+  }
 `;
 
 export const ContentButton = styled.div`

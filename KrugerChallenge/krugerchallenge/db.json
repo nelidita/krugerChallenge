@@ -1,9 +1,22 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 15,
+      "identification": "3576689943",
+      "name": "Nelida Valero",
+      "username": "valero",
+      "email": "nelidavalero06@gmail.com"
+    },
+    {
+      "id": 148,
+      "identification": "2456788997",
+      "name": "Noah",
+      "username": "manue",
+      "email": "nelidavalero06@gmail.com"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
 }

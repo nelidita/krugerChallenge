@@ -8,7 +8,7 @@ const CompleteInformation = () => {
     <Container>
       <form method="post">
         <div>
-          <label for="name">Fecha de nacimiento</label>
+          <label>Fecha de nacimiento</label>
           <Input
             type="date"
             placeholder="15/02/1989"
@@ -18,7 +18,7 @@ const CompleteInformation = () => {
           />
         </div>
         <div>
-          <label for="name">Direccion</label>
+          <label>Direccion</label>
           <Input
             type="text"
             placeholder="calle 50 #145-12"
@@ -28,7 +28,7 @@ const CompleteInformation = () => {
           />
         </div>
         <div>
-          <label for="name">Teléfono</label>
+          <label>Teléfono</label>
           <Input
             type="text"
             placeholder="3144569066"
@@ -38,14 +38,14 @@ const CompleteInformation = () => {
           />
         </div>
         <div>
-          <label for="email">Estado de vacunación</label>
+          <label>Estado de vacunación</label>
           <Select placeholder="Selecciona una opción" required>
             <option>Vacunado</option>
             <option>No Vacunado</option>
           </Select>
         </div>
         <div>
-          <label for="email">Tipo de vacuna</label>
+          <label>Tipo de vacuna</label>
           <Select placeholder="Selecciona una opción" required>
             <option>Sputnik</option>
             <option>AstraZeneca</option>
@@ -54,7 +54,7 @@ const CompleteInformation = () => {
           </Select>
         </div>
         <div>
-          <label for="name">Fecha de vacunación</label>
+          <label>Fecha de vacunación</label>
           <Input
             type="date"
             placeholder="15/02/2022"
@@ -64,7 +64,7 @@ const CompleteInformation = () => {
           />
         </div>
         <div>
-          <label for="name">Número de dosis</label>
+          <label>Número de dosis</label>
           <Input
             type="text"
             placeholder="1"
